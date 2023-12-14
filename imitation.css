@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Mulish:wght@800&family=Oswald:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&family=Oswald:wght@300&display=swap');
+
+
+@font-face {
+    font-family: 'Wilkey';
+    src:url('Wilkey.ttf.woff') format('woff'),
+        url('Wilkey.ttf.svg#Wilkey') format('svg'),
+        url('Wilkey.ttf.eot'),
+        url('Wilkey.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+main {
+  width: 450px;
+  height: 670px;
+  background: url(bg.jpg);
+  background-size: cover;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  position: relative;
+  align-items: center;
+  padding-top: 15px;
+  align-content: space-around;
+  flex-wrap: wrap;
+  }
+
+  .special {
+    display: inline-block;
+    font-family: Oswald;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #e1dcde;
+    margin-top: -29px;
+  }
+
+  .minerals {
+    align-self: flex-end;
+    border-top: 3.5px solid black;
+    border-bottom: 3.5px solid black;
+    width: 15em;
+    text-align: justify;
+    font-size: 6.5px;
+  }
+
+  .minerals > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+  .bb {
+    font-weight: bold;
+    font-size: 7px;
+  }
+
+  .b {
+  font-weight: bold;
+  }
+
+    .wiggly-text span {
+      display: inline-block;
+      color: #edd72b;
+      font-family: Wilkey;
+      font-weight: bold;
+      font-size: 110px;
+      text-shadow: -3px 3px black;
+      -webkit-text-stroke: .1px #000000;
+      /* If you need to layer, you must add position: relative */
+      position: relative;
+    }
+    .wiggly-text span:nth-child(1) {
+      transform: rotate(353deg);
+      /* z-index says what layer you are
+    in -- higher = on top */
+      z-index: 3;
+      font-size: 90px;
+    }
+    .wiggly-text span:nth-child(2) {
+      transform: rotate(20deg);
+      margin-left: 0px;
+      z-index: 2;
+      font-size: 90px;
+    }
+    .wiggly-text span:nth-child(3) {
+      transform: rotate(352deg);
+      margin-left: 0px;
+      z-index: 1;
+      font-size: 90px;
+    }
+    .wiggly-text span:nth-child(4) {
+      transform: rotate(23deg);
+      z-index: 0;
+      font-size: 90px;
+    }
+    .wiggly-text span:nth-child(5) {
+      transform: rotate(5deg);
+        z-index: 2;
+      }
+    .wiggly-text span:nth-child(6) {
+    transform: rotate(352deg);
+      z-index: 6;
+    }
+    .wiggly-text span:nth-child(7) {
+    transform: rotate(352deg);
+      z-index: 5;
+    }
+    .wiggly-text span:nth-child(8) {
+    transform: rotate(13deg);
+      z-index: 4;
+    }
+    .wiggly-text span:nth-child(9) {
+    transform: rotate(0deg);
+      z-index: 3;
+    }
+    .wiggly-text span:nth-child(10) {
+    transform: rotate(13deg);
+     z-index: 2;
+    }
+    .wiggly-text span:nth-child(11) {
+    transform: rotate(355deg);
+      z-index: 1;
+    }
+    .wiggly-text span:nth-child(12) {
+    transform: rotate(354deg);
+      z-index: 0;
+    }
+
+.marshmallow {
+  margin-top: -12px;
+  letter-spacing: -2px;
+}
+
+.marshmallow span {
+  text-align: center;
+  font-size: 25px;
+  font-family: Mulish;
+  text-shadow: -2px 2px black;
+  -webkit-text-stroke: .5px #000000;
+}
+
+  .marshmallow span:nth-child(1) {
+  color: #D68471;
+}
+  .marshmallow span:nth-child(2) {
+  color: #d879ab;
+}
+  .marshmallow span:nth-child(3) {
+  color: #e37e54;
+}
+  .marshmallow span:nth-child(4) {
+  color: #8abb78;
+}
+  .marshmallow span:nth-child(5) {
+  color: #e8d630;
+}
+  .marshmallow span:nth-child(6) {
+  color: #e38674;
+}
+  .marshmallow span:nth-child(7) {
+  color: #d67ba6;
+}
+  .marshmallow span:nth-child(8) {
+  color: #e6824e;
+}
+  .marshmallow span:nth-child(9) {
+  color: #8dc676;
+}
+  .marshmallow span:nth-child(10) {
+  color: #eed332;
+}
+  .marshmallow span:nth-child(11) {
+  color: #f07952;
+}
+  .marshmallow span:nth-child(12) {
+  color: #da85ae;
+}

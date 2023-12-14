@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="imitation.css" rel="stylesheet" type="text/css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+    #banner-image {
+      position: absolute;
+      top: 0;
+      left: 0px;
+      width: 170px;
+      height: auto;
+      z-index: 1;
+    }
+
+    #post-image {
+      width: 95px;
+      height: auto;
+      display: inline-block;
+      margin-top: -100px;
+    }
+
+    #dinos-image {
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: -5px;
+    }
+    
+    #spikey-image {
+    position: absolute;
+    top: 548px;
+    left: 0px;
+    width: 205px;
+    height: auto;
+    z-index: 2;
+    }
+    
+    #cereal-image {
+    width: 459px;
+    height: auto;
+      position: absolute;
+      bottom: 0px;
+       z-index: 1;
+    }
+
+    #rbox {
+      border-radius: 30px;
+      border: 2px solid #4B4243;
+      padding: 20px;
+      width: 370px;
+      height: 215px;
+      text-align: center;
+      line-height: .80;
+      margin-top: 5px;
+    }
+
+    #rbox-title {
+      color: #EDD72B;
+      font-size: 85px;
+    }
+
+    #minerals {
+      align-self: flex-end;
+      margin-right: auto;
+      line-height: 0.1;
+    }
+
+    .sub {
+      display: flex;
+      justify-content: center;
+      font-family: Jost;
+    }
+    
+    
+  </style>
+</head>
+
+<body>
+  <main>
+
+    <img id="banner-image" src="banner.png" alt="Banner">
+
+    <div class="minerals">
+      <div>
+        <span>PROVIDES</span> <span class="special"><b>10</b></span> <span>ESSENTIAL</span>
+      </div>
+      <div class="bb"><span>VITAMINS</span>
+        <span>&amp;</span> <span> MINERALS</span>
+      </div>
+    </div>
+
+    <div id="rbox-container">
+      <div id="rbox">
+        <img id="post-image" src="post.png" alt="Post">
+        <br>
+        <span id="rbox-title" class="wiggly-text">
+          <span>D</span><span>I</span><span>N</span><span>O</span>
+          <br>
+          <span>P</span><span>E</span><span>B</span><span>B</span><span>L</span><span>E</span><span>S</span>
+        </span>
+        <img id="dinos-image" src="dinos.png" alt="Banner">
+
+      </div>
+    </div>
+
+    <div class="sub">Wholesome, Sweetened Rice Cereal with</div>
+
+    <div class="marshmallow">
+    <span>M</span><span>a</span><span>r</span><span>s</span><span>h</span><span>m</span><span>a</span><span>l</span><span>l</span><span>o</span><span>w</span><span>s</span>
+    </div>
+
+    <img id="spikey-image" src="spikey.png" alt="Text bubble">
+    
+    <img id="cereal-image" src="cereal.png" alt="Cereal">
+
+
+  </main>
+</body>
+</html>
